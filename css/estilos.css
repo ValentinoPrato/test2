@@ -1,0 +1,391 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 190vh;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    height: 5rem;
+    background-color: rgb(235, 235, 235);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+
+}
+
+.logo img {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.fondocabecera li {
+    list-style: none;
+}
+
+.fondocabecera li a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+.fondocabecera li a:hover {
+    color: rgb(155, 155, 155);
+}
+
+
+.contenedor {
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.cards{
+    width: 300px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    margin-top: 2rem;
+}
+
+.cards img{
+    height: 15rem;
+    margin-top: 2rem;
+}
+
+.cards h2{
+    font-size: 1rem;
+    margin: 2rem;
+    margin-top: 2rem;
+}
+
+.cards h3{
+    font-weight: lighter;
+    color: rgb(96, 96, 96);
+}
+
+.cards p{
+    font-weight: bold;
+}
+
+.contenedor .cards:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.imgperfumes {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    height: 50%;
+}
+
+.partesets h1 {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: rgb(30, 30, 30);
+}
+
+
+.footer {
+    background-color: rgb(24, 24, 24);
+    margin-top: auto;
+    height: 12%;
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 10rem;
+    font-size: 20px;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+/*pagina fragancias*/
+
+.titulofragancias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.contenedorcard {
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.card {
+    width: 300px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.contenedorcard .card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    height: 15rem;
+}
+
+.card h2 {
+    font-size: 1rem;
+    margin: 2rem;
+}
+
+.card h3{
+    font-weight: lighter;
+    color: rgb(96, 96, 96);
+}
+
+.card p{
+    font-weight: bold;
+}
+
+/*pagina ayuda*/
+
+.bodyayuda{
+    height: 100vh;
+    
+}
+
+.contenedorayuda h1{
+    text-align: center;
+   
+}
+
+.ayuda{
+    text-align: center;
+    margin: 20px;
+    margin-top: 3rem;
+}
+
+.ayuda h1{
+    color: rgb(30, 30, 30);
+}
+
+.ayuda h2{
+    color: rgb(30, 30, 30);
+    font-size: 2rem;
+}
+
+.ayuda p{
+    color: rgb(25, 25, 25);
+    margin: 2rem;
+    font-size: 1.5rem;
+}
+
+.footerayuda{
+    background-color: rgb(24, 24, 24);
+    margin-top: 20rem;
+    height: 25%;
+    text-align: center;
+    
+}
+
+.footerayuda p {
+    color: white;
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+}
+
+.footerayuda a {
+    color: white;
+    text-decoration: none;
+    margin: 10rem;
+    font-size: 20px;
+}
+
+/*pagina sets*/
+
+.titulosets{
+    color: rgb(30, 30, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.contenedorsets{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.cardsets{
+    width: 300px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.contenedorsets .cardsets:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.cardsets img{
+    height: 15rem;
+}
+
+.cardsets h2{
+    font-size: 1rem;
+    margin: 2rem;
+}
+
+.cardsets h3{
+    font-weight: lighter;
+    color: rgb(96, 96, 96);
+}
+
+.cardsets{
+    font-weight: bold;
+}
+
+/*pagina ingresar*/
+
+.bodyingresar{
+    height: 100vh;
+}
+
+.contenedor1{
+    width: 100%;
+    padding: 15px;
+}
+
+.formulario{
+    margin-top: 150px;
+    padding: 3px;
+}
+
+.formulario h1{
+    text-align: center;
+    color: rgb(32, 32, 32);
+    font-size: 40px;
+}
+
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+
+.input-contenedor1{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(32, 32, 32);
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background: rgb(80, 80, 80);
+}
+
+.contenedor1 a{
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+    font-weight: 600;
+}
+
+.link:hover{
+    color: rgb(80, 80, 80);
+}
+
+.footeringresar{
+    background-color: rgb(24, 24, 24);
+    margin-top: 20rem;
+    height: 25%;
+    text-align: center;
+}
+
+.footeringresar p{
+    color: white;
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+}
+
+.footeringresar a{
+    color: white;
+    text-decoration: none;
+    margin: 10rem;
+    font-size: 20px;
+}
+
+@media (max-width:700px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        padding: 10px 0px;
+    }
+}
